@@ -8,6 +8,7 @@ foreach(FILE_PATH ${UNITTESTS_LIST})
       GTest::gtest
       GTest::gtest_main
       GTest::gmock_main
+      my_ai_training_lib
     )
   add_test(${FILE_NAME} ${FILE_NAME})
 endforeach()

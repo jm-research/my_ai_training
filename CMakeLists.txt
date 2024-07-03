@@ -24,6 +24,8 @@ include(GNUInstallDirs)
 set(MY_AI_TRAINING_ROOT ${PROJECT_SOURCE_DIR})
 
 if(MY_AI_TRAINING_BUILD_TESTS)
+  include(CTest)
+  enable_testing()
   find_package(GTest)
   if(NOT GTest_FOUND)
     list(APPEND CMAKE_MODULE_PATH ${ONNX_ROOT}/cmake/external)
@@ -34,7 +36,7 @@ endif()
 
 include_directories(src)
 
-file(GLOB SRCS src/*.cc)
+file(GLOB SRCS src/ir/*.cc)
 
 add_library(my_ai_training_lib ${SRCS})
 

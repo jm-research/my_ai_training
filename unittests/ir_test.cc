@@ -1,4 +1,4 @@
-#include "ir.h"
+#include "ir/ir.h"
 
 #include <gtest/gtest.h>
 

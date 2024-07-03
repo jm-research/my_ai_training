@@ -16,7 +16,7 @@
 #include <utility>
 #include <vector>
 
-#include "assertions.h"
+#include "ir/assertions.h"
 
 #define MY_AI_TRAINING_DISALLOW_COPY_AND_ASSIGN(TypeName) \
   TypeName(const TypeName&) = delete;                     \
@@ -85,5 +85,7 @@ static inline const char* toString(AttributeKind kind) {
   ONNX_ASSERT(size_t(kind) < sizeof(names) / sizeof(const char*));
   return names[int(kind)];
 }
+
+
 
 }  // namespace my_ai_training::ir

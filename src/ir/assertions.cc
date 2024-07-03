@@ -7,13 +7,13 @@
 // ATTENTION: The code in this file is highly EXPERIMENTAL.
 // Adventurous users should note that the APIs will probably change.
 
-#include "assertions.h"
+#include "ir/assertions.h"
 
 #include <array>
 #include <cstdarg>
 #include <cstdio>
 
-#include "common.h"
+#include "ir/common.h"
 
 namespace my_ai_training::ir {
 

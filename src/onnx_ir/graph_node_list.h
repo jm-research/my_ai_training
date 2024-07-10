@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ir/assertions.h"
+#include "onnx_ir/assertions.h"
 
 namespace my_ai_training::ir {
 

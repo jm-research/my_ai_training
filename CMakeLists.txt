@@ -36,7 +36,7 @@ endif()
 
 include_directories(src)
 
-file(GLOB SRCS src/ir/*.cc)
+file(GLOB SRCS src/onnx_ir/*.cc)
 
 add_library(my_ai_training_lib ${SRCS})
 

@@ -7,7 +7,7 @@
 // ATTENTION: The code in this file is highly EXPERIMENTAL.
 // Adventurous users should note that the APIs will probably change.
 
-#include "ir/interned_strings.h"
+#include "onnx_ir/interned_strings.h"
 
 #include <stdint.h>
 
@@ -16,7 +16,7 @@
 #include <unordered_map>
 #include <vector>
 
-#include "ir/assertions.h"
+#include "onnx_ir/assertions.h"
 
 namespace my_ai_training::ir {
 

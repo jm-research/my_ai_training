@@ -16,10 +16,10 @@
 #include <utility>
 #include <vector>
 
-#include "ir/array_ref.h"
-#include "ir/assertions.h"
-#include "ir/graph_node_list.h"
-#include "ir/interned_strings.h"
+#include "onnx_ir/array_ref.h"
+#include "onnx_ir/assertions.h"
+#include "onnx_ir/graph_node_list.h"
+#include "onnx_ir/interned_strings.h"
 
 #define MY_AI_TRAINING_DISALLOW_COPY_AND_ASSIGN(TypeName) \
   TypeName(const TypeName&) = delete;                     \
